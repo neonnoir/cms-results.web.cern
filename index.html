@@ -1,323 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMS Publications</title>
+  </head>
+  <link rel="stylesheet" type="text/css" media="all" href="./style.css" />
+  <script
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
+  ></script>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>CMS Publications</title>
-</head>
-<link rel="stylesheet" type="text/css" media="all" href="./style.css" />
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <body>
+    <header class="main-header" id="site-header">
+      <!-- cern toolbar -->
+      <div class="cern-toolbar">
+        <h1>
+          <a href="//home.cern" title="CERN">
+            CERN
+            <span>Accelerating science</span>
+          </a>
+        </h1>
+      </div>
+      <!-- header -->
+      <div class="header-container">
+        <div class="header-titles">
+          <img src="./figures/cms_logo.png" alt="CMS event Hgg" />
+          <h1 class="header-title-main">
+            Compact Muon Solenoid at LHC,
+            <a class="cern-link" href="http://home.web.cern.ch">CERN</a>
+          </h1>
+        </div>
+        <!-- navbar (visit, contact links) -->
+        <div class="header-nav">
+          <span>Visit us:</span>
+          <a
+            class="nav-link"
+            id="headerCmsPublicWebsite"
+            target="_blank"
+            href="https://cms.cern/"
+            >CMS Public Website</a
+          >
+          <span class="separator">|</span>
+          <a
+            class="nav-link"
+            id="headerCmsPhysics"
+            target="_blank"
+            href="https://cms.cern/org/cms-scientific-results"
+            >CMS Physics</a
+          >
+          <span class="separator">|</span>
+          <span>Contact us:</span>
+          <a
+            class="nav-link"
+            id="headerCmsPublicationsCommittee"
+            href="mailto:cms-publication-committee-chair@cern.ch"
+            >CMS Publications Committee</a
+          >
+        </div>
+      </div>
+    </header>
 
-<body>
-	<header class="main-header">
-		<!-- cern toolbar -->
-		<div class="cern-toolbar">
-			<h1>
-				<a href="//home.cern" title="CERN">
-					CERN
-					<span>Accelerating science</span>
-				</a>
-			</h1>
-		</div>
-		<!-- header -->
-		<div class="header-container">
-			<div class="header-titles">
-				<img src="./figures/cms_logo.png" alt="CMS event Hgg">
-				<h1 class="header-title-main">
-					Compact Muon Solenoid at LHC,
-					<a class="cern-link" href="http://home.web.cern.ch">CERN</a>
-				</h1>
-			</div>
-			<!-- navbar (visit, contact links) -->
-			<div class="header-nav">
-				<span>Visit us:</span>
-				<a class="nav-link" id="headerCmsPublicWebsite" target="_blank" href="https://cms.cern/">CMS Public
-					Website</a>
-				<span class="separator">|</span>
-				<a class="nav-link" id="headerCmsPhysics" target="_blank"
-					href="https://cms.cern/org/cms-scientific-results">CMS Physics</a>
-				<span class="separator">|</span>
-				<span>Contact us:</span>
-				<a class="nav-link" id="headerCmsPublicationsCommittee"
-					href="mailto:cms-publication-committee-chair@cern.ch">CMS Publications Committee</a>
-			</div>
-		</div>
-	</header>
+    <!-- publications -->
+    <main>
+      <h2 class="publications-section-title">CMS Publications</h2>
+      <div class="publications-container">
+        <div class="card">
+          <h3 class="card-title">
+            <a
+              href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/index.html"
+              >CMS Publications</a
+            >
+          </h3>
+          <ul class="card-list">
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/Run3/index.html"
+                >Run 3 data</a
+              >
+            </li>
 
-	<!-- publications -->
-	<main>
-		<h2 class="publications-section-title">CMS Publications</h2>
-		<div class="publications-container">
-			<div class="card">
-				<h3 class="card-title"> <a
-						href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/index.html">CMS
-						Publications</a></h3>
-				<ul class="card-list">
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/Run3/index.html">Run
-							3 data</a>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/Run2/index.html">Run
-							2 data</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/Run1/index.html">Run
-							1 data</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/Cosmics/index.html">Cosmics
-							data</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS-00-001/index.html">The
-							CMS Experiment at the CERN LHC</a></li>
-				</ul>
-			</div>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/Run2/index.html"
+                >Run 2 data</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/Run1/index.html"
+                >Run 1 data</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/Cosmics/index.html"
+                >Cosmics data</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS-00-001/index.html"
+                >The CMS Experiment at the CERN LHC</a
+              >
+            </li>
+          </ul>
+        </div>
 
-			<div class="card">
-				<h3 class="card-title"><a
-						href="https://cms-results.web.cern.ch/cms-results/public-results/publications/PHY/index.html">CMS
-						Physics Publications</a></h3>
-				<ul class="card-list">
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/FSQ/index.html">Forward
-							and Small-x QCD Physics</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/BPH/index.html">B
-							Physics and Quarkonia</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/SMP/index.html">Standard
-							Model Physics</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/TOP/index.html">Top
-							Physics</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG/index.html">Higgs
-							Physics</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/SUS/index.html">Supersymmetry</a>
-					</li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/EXO/index.html">Exotica</a>
-					</li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/B2G/index.html">Beyond
-							2 Generations</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/HIN/index.html">Heavy-Ion
-							Physics </a></li>
-				</ul>
-			</div>
+        <!-- starts with CMS Publication Search Page -->
+        <div class="card dark-card">
+          <ul class="card-list">
+            <li>
+              <a href="https://cms-results-search.web.cern.ch"
+                >CMS Publication Search Page</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/CMS/index.html"
+                >CMS Physics Analysis Summaries</a
+              >
+            </li>
 
-			<div class="card">
-				<h3 class="card-title"><a
-						href="https://cms-results.web.cern.ch/cms-results/public-results/publications/DET/index.html">CMS
-						Physics Object Publications</a></h3>
-				<ul class="card-list">
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/TRK/index.html">Tracking</a>
-					</li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/BTV/index.html">Vertexing
-							and B Tagging</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/EGM/index.html">Electron
-							Photon</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/MUO/index.html">Muon</a>
-					</li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/TAU/index.html">Tau</a>
-					</li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/JME/index.html">Jet
-							and Missing ET</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/GEN/index.html">Generators</a>
-					</li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/LUM/index.html">Luminosity</a>
-					</li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CAT/index.html">Common
-							Analysis Tools</a></li>
-				</ul>
-			</div>
+            <li>
+              <a href="https://cms.cern/index.php/news/cms-eps-hep-2025"
+                >CMS at EPS-HEP 2025
+                <img class="star-image"
+                  src="./figures/5star.png"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/PR/PR.html"
+                >Physics Reports</a
+              >
+            </li>
+          </ul>
+        </div>
 
-			<div class="card dark-card">
-				<ul class="card-list">
-					<li><a href="https://cms-results-search.web.cern.ch">CMS
-							Publication Search Page</a>
-					</li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/CMS/index.html">CMS
-							Physics Analysis Summaries</a>
-					<li><a href="https://cms.cern/index.php/news/cms-eps-hep-2025">CMS at EPS-HEP 2025 <img width="15"
-								height="15" style="margin-top:3px" src="./figures/5star.png" /></a>
-					</li>
-					<li><a href="https://cms-results.web.cern.ch/cms-results/public-results/publications/PR/PR.html">Physics
-							Reports</a>
-					</li>
-				</ul>
-			</div>
-			<div class="card dark-card">
-				<ul class="card-list">
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/index.html">CMS
-							Preliminary Results</a>
-					</li>
-					<li><a href="https://cms.cern/news/cms-eps-hep-2025">CMS at EPS-HEP, 2025 <img width="15"
-								height="15" style="margin-top:3px" src="./figures/5star.png" /></a>
-					<li><a href="https://cms.cern/news/cms-lhcp-2025">CMS at LHCP, 2025</a>
-					</li>
-					<li><a href="https://cms.cern/news/cms-moriond-2025">CMS at Moriond EWK and QCD, 2025</a></li>
-				</ul>
-			</div>
+        <!-- starts with CMS Physics Publications -->
+        <div class="card">
+          <h3 class="card-title">
+            <a
+              href="https://cms-results.web.cern.ch/cms-results/public-results/publications/PHY/index.html"
+              >CMS Physics Publications</a
+            >
+          </h3>
+          <ul class="card-list">
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/FSQ/index.html"
+                >Forward and Small-x QCD Physics</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/BPH/index.html"
+                >B Physics and Quarkonia</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/SMP/index.html"
+                >Standard Model Physics</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/TOP/index.html"
+                >Top Physics</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG/index.html"
+                >Higgs Physics</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/SUS/index.html"
+                >Supersymmetry</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/EXO/index.html"
+                >Exotica</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/B2G/index.html"
+                >Beyond 2 Generations</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/HIN/index.html"
+                >Heavy-Ion Physics
+              </a>
+            </li>
+          </ul>
+        </div>
 
-			<div class="small-cards-container">
-				<!-- First small card -->
-				<div class="card small-card dark-card">
-					<h3 class="card-title"><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/detector-performance/index.html">
-							CMS Detector Performance and Operation</a></h3>
-				</div>
-				<!-- Second small card -->
-				<div class="card small-card dark-card">
-					<h3 class="card-title"> <a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/FTR/index.html">
-							CMS Projected Physics Results</a></h3>
-				</div>
-				<!-- Third small card -->
-				<div class="card small-card dark-card">
-					<h3 class="card-title"><a
-							href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/CMSOfflineComputingResults">
-							CMS Offline and Computing Public Results</a>
-					</h3>
-				</div>
-			</div>
+        <!-- <div class="card"></div> -->
 
-			<div class="card">
-				<h3 class="card-title">CMS Summaries</h3>
-				<ul class="card-list">
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/detector-performance/13TeV/index.html">13-TeV
-							Performance Results</a></li>
-					<li><a href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/SummaryPlotsEXO13TeV#Moriond_2023">Exotica
-							(EXO) Summary Plots (Moriond 2023)</a></li>
-					<li>
-						<a href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsB2G#B2G_Summary_Plots">Summary
-							of Beyond-Second-Generation (B2G) and Diboson Searches</a>
-					</li>
-					<li>
-						<a href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsCombined">Summary of
-							CMS Cross Section Measurements</a>
-					</li>
-					<li>
-						<a href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsTOPSummaryFigures">Summary
-							of CMS Results in Top Quark Physics</a>
-					</li>
-				</ul>
-			</div>
+        <!-- starts with CMS Physics Object Publications -->
+        <div class="card">
+          <h3 class="card-title">
+            <a
+              href="https://cms-results.web.cern.ch/cms-results/public-results/publications/DET/index.html"
+              >CMS Physics Object Publications</a
+            >
+          </h3>
+          <ul class="card-list">
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/TRK/index.html"
+                >Tracking</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/BTV/index.html"
+                >Vertexing and B Tagging</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/EGM/index.html"
+                >Electron Photon</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/MUO/index.html"
+                >Muon</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/TAU/index.html"
+                >Tau</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/JME/index.html"
+                >Jet and Missing ET</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/GEN/index.html"
+                >Generators</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/LUM/index.html"
+                >Luminosity</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CAT/index.html"
+                >Common Analysis Tools</a
+              >
+            </li>
+          </ul>
+        </div>
 
-			<div class="card">
-				<h3 class="card-title">CMS Projections and Upgrades</h3>
-				<ul class="card-list">
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/FTR-19-001/index.html">Report
-							on the
-							physics at the HL-LHC and perspectives for the
-							HE-LHC</a></li>
-					<li><a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/FTR/index.html">Projected
-							Physics Results</a></li>
-					<li>
-						<a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/TDR/index.html">Phase-2
-							Upgrade
-							Technical Design Reports</a>
-					</li>
-					<li>
-						<a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/TDR-15-002/index.html">Technical
-							Proposal for the Phase-2 Upgrade of CMS</a>
-					</li>
-					<li>
-						<a
-							href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/phase2sd/index.html">CMS
-							Phase-2 Upgrade Scope Document</a>
-					</li>
-				</ul>
-			</div>
+        <!-- <div class="card"></div> -->
 
-			<div class="card-column">
-				<div class="card med-card">
-					<h3 class="card-title"> <a
-							href="https://cds.cern.ch/search?ln=en&cc=CMS+Papers&p=&action_search=Search&op1=a&m1=a&p1=&f1=&c=CMS+Papers&c=CMS+Physics+Analysis+Summaries&c=CMS+Detector+Performance+Summaries&sf=&so=d&rm=&rg=10&sc=0&of=hb">CMS
-							Public Results in CERN Document Server (CDS)</a></h3>
-					<ul class="card-list">
-						<li><a href="https://cds.cern.ch/collection/CMS%20Papers?ln=en">Papers</a></li>
-						<li><a href="https://cds.cern.ch/collection/CMS%20Physics%20Analysis%20Summaries?ln=en">Physics
-								Analysis Summaries</a></li>
-						<li><a href="https://cds.cern.ch/collection/CMS%20Detector%20Performance%20Summaries?ln=en">Detector
-								Performance Summaries</a></li>
-						<li><a
-								href="https://cds.cern.ch/search?ln=en&cc=LHCC+Public+Documents&p=%22CMS-TDR%22+Phase-2+Upgrade&action_search=Search&op1=a&m1=a&p1=&f1=&c=LHCC+Public+Documents&c=&sf=&so=d&rm=&rg=10&sc=0&of=hb">Phase-2
-								Upgrade Technical Design Reports</a></li>
-					</ul>
-				</div>
-				<div class="card small-card">
-					<ul class="card-list">
-						<li>
-							CMS Publications in <a
-								href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/CMS_publications.pdf">PDF</a>,
-							or <a
-								href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/CMS_publications.docx">DOCX</a>,
-							or <a
-								href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/CMS_publications.csv">CSV</a>,
-							or <a
-								href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/CMS_publications.xls">XLS</a>,
-							or <a
-								href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/CMS_publications_pub.bib">BibTeX</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+        <!-- starts with CMS Preliminary Results -->
+        <div class="card dark-card">
+          <ul class="card-list">
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/index.html"
+                >CMS Preliminary Results</a
+              >
+            </li>
+            <li>
+              <a href="https://cms.cern/news/cms-eps-hep-2025"
+                >CMS at EPS-HEP, 2025
+                <img class="star-image"
+                  src="./figures/5star.png"
+              /></a>
+            </li>
 
-			<div class="card dark-card">
-				<h3 class="card-title"><a
-						href="https://cds.cern.ch/search?ln=en&p=Event+Display&action_search=Search&op1=a&m1=a&p1=&f1=&c=CMS+Photos&sf=&so=d&rm=&rg=10&sc=0&of=hb">CMS
-						Event Displays <img width="15" height="15" style="margin-top:3px"
-							src="./figures/5star.png" /></a> </h3>
-			</div>
+            <li>
+              <a href="https://cms.cern/news/cms-lhcp-2025"
+                >CMS at LHCP, 2025</a
+              >
+            </li>
+            <li>
+              <a href="https://cms.cern/news/cms-moriond-2025"
+                >CMS at Moriond EWK and QCD, 2025</a
+              >
+            </li>
+          </ul>
+        </div>
 
-			<div class="card dark-card">
-				<h3 class="card-title"> <a href="http://cern.ch/cms-results/public-results/publications-vs-time/">CMS
-						Publications
-						versus Time</a></h3>
-			</div>
+        <div class="card gray-card">
+          <h3 class="card-title">
+            <a
+              href="https://cds.cern.ch/search?ln=en&p=Event+Display&action_search=Search&op1=a&m1=a&p1=&f1=&c=CMS+Photos&sf=&so=d&rm=&rg=10&sc=0&of=hb"
+              >CMS Event Displays
+              <img
+                class="star-image"
+                src="./figures/5star.png"
+            /></a>
+          </h3>
+        </div>
 
-			<div class="card dark-card">
-				<h3 class="card-title"><a href="https://cms.cern/tags/physics-briefing">
-						CMS Physics
-						Briefings <img width="15" height="15" style="margin-top:3px" src="./figures/5star.png" /></a>
-				</h3>
-			</div>
-		</div>
-	</main>
+        <div class="small-cards-container">
+          <div class="card small-card">
+            <h3 class="card-title">
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/detector-performance/index.html"
+              >
+                CMS Detector Performance and Operation</a
+              >
+            </h3>
+          </div>
+          <div class="card small-card">
+            <h3 class="card-title">
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/FTR/index.html"
+              >
+                CMS Projected Physics Results</a
+              >
+            </h3>
+          </div>
+          <div class="card small-card">
+            <h3 class="card-title">
+              <a
+                href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/CMSOfflineComputingResults"
+              >
+                CMS Offline and Computing Public Results</a
+              >
+            </h3>
+          </div>
+        </div>
 
+        <div class="card">
+          <h3 class="card-title">CMS Summaries</h3>
+          <ul class="card-list">
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/detector-performance/13TeV/index.html"
+                >13-TeV Performance Results</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/SummaryPlotsEXO13TeV#Moriond_2023"
+                >Exotica (EXO) Summary Plots (Moriond 2023)</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsB2G#B2G_Summary_Plots"
+                >Summary of Beyond-Second-Generation (B2G) and Diboson
+                Searches</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsCombined"
+                >Summary of CMS Cross Section Measurements</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsTOPSummaryFigures"
+                >Summary of CMS Results in Top Quark Physics</a
+              >
+            </li>
+          </ul>
+        </div>
 
-	<!-- Footer with images -->
-	<footer>
-		<div class="footer-text">
-			Gautier Hamel de Monchenault, CMS Publications Committee
-		</div>
-		<div class="image-container">
-			<img src="./figures/cortada_higgs-zz.jpg" alt="Higgs event to ZZ">
-			<img src="./figures/cortada_higgs-gg.jpg" alt="Higgs event to gg">
-			<img src="./figures/cortada_higgs-bb.jpg" alt="Higgs event to bb">
-			<img src="./figures/cortada_higgs-tt.jpg" alt="Higgs event to tt">
-			<img src="./figures/cortada_higgs-ww.jpg" alt="Higgs event to WW">
-		</div>
-	</footer>
+        <!-- starts with CMS Public Results in CERN Document Server (CDS) -->
+        <div class="card-column">
+          <div class="card med-card">
+            <h3 class="card-title">
+              <a
+                href="https://cds.cern.ch/search?ln=en&cc=CMS+Papers&p=&action_search=Search&op1=a&m1=a&p1=&f1=&c=CMS+Papers&c=CMS+Physics+Analysis+Summaries&c=CMS+Detector+Performance+Summaries&sf=&so=d&rm=&rg=10&sc=0&of=hb"
+                >CMS Public Results in CERN Document Server (CDS)</a
+              >
+            </h3>
+            <ul class="card-list">
+              <li>
+                <a href="https://cds.cern.ch/collection/CMS%20Papers?ln=en"
+                  >Papers</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://cds.cern.ch/collection/CMS%20Physics%20Analysis%20Summaries?ln=en"
+                  >Physics Analysis Summaries</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://cds.cern.ch/collection/CMS%20Detector%20Performance%20Summaries?ln=en"
+                  >Detector Performance Summaries</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://cds.cern.ch/search?ln=en&cc=LHCC+Public+Documents&p=%22CMS-TDR%22+Phase-2+Upgrade&action_search=Search&op1=a&m1=a&p1=&f1=&c=LHCC+Public+Documents&c=&sf=&so=d&rm=&rg=10&sc=0&of=hb"
+                  >Phase-2 Upgrade Technical Design Reports</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="card small-card" id="publications-formats-card">
+            <ul class="card-list">
+              <li>
+                CMS Publications in
+                <a
+                  href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/CMS_publications.pdf"
+                  >PDF</a
+                >, or
+                <a
+                  href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/CMS_publications.docx"
+                  >DOCX</a
+                >, or
+                <a
+                  href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/CMS_publications.csv"
+                  >CSV</a
+                >, or
+                <a
+                  href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/CMS_publications.xls"
+                  >XLS</a
+                >, or
+                <a
+                  href="https://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/CMS_publications_pub.bib"
+                  >BibTeX</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
 
-</body>
+        <div class="card">
+          <h3 class="card-title">CMS Projections and Upgrades</h3>
+          <ul class="card-list">
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/FTR-19-001/index.html"
+                >Report on the physics at the HL-LHC and perspectives for the
+                HE-LHC</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/FTR/index.html"
+                >Projected Physics Results</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/TDR/index.html"
+                >Phase-2 Upgrade Technical Design Reports</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/TDR-15-002/index.html"
+                >Technical Proposal for the Phase-2 Upgrade of CMS</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/phase2sd/index.html"
+                >CMS Phase-2 Upgrade Scope Document</a
+              >
+            </li>
+          </ul>
+        </div>
 
+        <div class="card dark-card">
+          <h3 class="card-title">
+            <a
+              href="http://cern.ch/cms-results/public-results/publications-vs-time/"
+              >CMS Publications versus Time</a
+            >
+          </h3>
+        </div>
+
+        <div class="card dark-card">
+          <h3 class="card-title">
+            <a href="https://cms.cern/tags/physics-briefing">
+              CMS Physics Briefings
+              <img
+                width="15"
+                height="15"
+                style="margin-top: 3px"
+                src="./figures/5star.png"
+            /></a>
+          </h3>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer without images -->
+    <footer>
+      <div class="footer-content">
+        <div>
+          <a>© Copyright CERN 2025 for the benefit of the CMS Collaboration</a>
+        </div>
+        <div>
+          <a href="#site-header">To the top <img class="icon" src="./figures/bsArrowUp.png"></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer with images -->
+    <!-- <footer>
+      <div class="footer-text">
+        Gautier Hamel de Monchenault, CMS Publications Committee
+      </div>
+      <div class="image-container">
+        <img src="./figures/cortada_higgs-zz.jpg" alt="Higgs event to ZZ" />
+        <img src="./figures/cortada_higgs-gg.jpg" alt="Higgs event to gg" />
+        <img src="./figures/cortada_higgs-bb.jpg" alt="Higgs event to bb" />
+        <img src="./figures/cortada_higgs-tt.jpg" alt="Higgs event to tt" />
+        <img src="./figures/cortada_higgs-ww.jpg" alt="Higgs event to WW" />
+      </div>
+    </footer> -->
+  </body>
 </html>
